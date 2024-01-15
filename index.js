@@ -1,10 +1,10 @@
 import TelegramBot from 'node-telegram-bot-api';
 
 //bot_data
-const token = '6641641772:AAELQIvA7wY0uvaSHAVQ5ztm8qpLENyQ1NM';
+const token = 'TOKEN_Bot;
 const bot = new TelegramBot(token, { polling: true });
 //adbot_data
-const adminToken = '5800101708:AAFU68v7vUxmFO1uDq60CnN0zMrtviJx-Ek';
+const adminToken = 'TOKEN_chatAdmin';
 const adbot = new TelegramBot(adminToken, { polling: true });
 const adChatId = 746905113;
 const groupChatId = -4010534495;
